@@ -27,7 +27,7 @@ const HeroSection = () => {
         <div className="flex max-w-3xl flex-grow flex-col justify-center gap-8 md:order-first md:items-start md:justify-center 2xl:gap-12">
           <div className="flex flex-col gap-2">
             <Typography variant="h1">
-              Hi, I&apos;m Sagar{' '}
+              Hi, I&apos;m Vamsi{' '}
               <span className="inline-block animate-waving-hand">👋</span>
             </Typography>
             <Typography>
@@ -41,7 +41,7 @@ const HeroSection = () => {
           <div className="flex flex-col gap-2">
             <div className="flex gap-2">
               <MapPin className="stroke-gray-600" />
-              <Typography>Ahmedabad, India</Typography>
+              <Typography>Hyderabad, India</Typography>
             </div>
 
             <div className="flex items-center gap-2">

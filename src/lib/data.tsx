@@ -1,4 +1,4 @@
-import { Github, Twitter, Figma } from 'lucide-react';
+import { Github, Twitter, Figma, Linkedin, Instagram } from 'lucide-react';
 
 import LogoJavascript from '/public/images/logos/icon-javascript.svg';
 import LogoTypescript from '/public/images/logos/icon-typescript.svg';
@@ -43,7 +43,7 @@ import {
 
 export const EXTERNAL_LINKS = {
   GITHUB: 'https://github.com/shahsagarm',
-  GITHUB_REPO: 'https://github.com/shahsagarm/sagarshah.dev',
+  GITHUB_REPO: 'https://github.com/Vamsilavudiya00/portfolio',
   TWITTER: 'https://twitter.com/shahsagarm',
   FIGMA: 'https://www.figma.com/@shahsagarm',
   FIGMA_FILE:
@@ -60,8 +60,8 @@ export const NAV_LINKS = [
     href: '#work',
   },
   {
-    label: 'Testimonials',
-    href: '#testimonials',
+    label: 'Skills',
+    href: '#skills',
   },
   {
     label: 'Contact',
@@ -72,15 +72,15 @@ export const NAV_LINKS = [
 export const SOCIAL_LINKS = [
   {
     icon: Github,
-    url: 'https://github.com/shahsagarm',
+    url: 'https://github.com/Vamsilavudiya00',
   },
   {
-    icon: Twitter,
-    url: 'https://twitter.com/shahsagarm',
+    icon: Linkedin,
+    url: 'https://www.linkedin.com/in/vamsi-lavudiya',
   },
   {
-    icon: Figma,
-    url: 'https://www.figma.com/@shahsagarm',
+    icon: Instagram,
+    url: 'https://www.instagram.com/vamsi_lavudiya00',
   },
 ];
 
@@ -89,11 +89,6 @@ export const TECHNOLOGIES: TechDetails[] = [
     label: 'Javascript',
     logo: LogoJavascript,
     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
-  },
-  {
-    label: 'Typescript',
-    logo: LogoTypescript,
-    url: 'https://www.typescriptlang.org/',
   },
   {
     label: 'React',
@@ -117,22 +112,6 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://expressjs.com/',
   },
   {
-    label: 'Nest.js',
-    logo: LogoNest,
-    url: 'https://nestjs.com/',
-  },
-  {
-    label: 'Socket.io',
-    logo: LogoSocket,
-    darkModeLogo: LogoSocketLight,
-    url: 'https://socket.io/',
-  },
-  {
-    label: 'PostgreSQL',
-    logo: LogoPostgreSQL,
-    url: 'https://www.postgresql.org/',
-  },
-  {
     label: 'MongoDB',
     logo: LogoMongoDB,
     url: 'https://www.mongodb.com/',
@@ -151,17 +130,6 @@ export const TECHNOLOGIES: TechDetails[] = [
     label: 'Figma',
     logo: LogoFigma,
     url: 'https://www.figma.com/',
-  },
-  {
-    label: 'Cypress',
-    logo: LogoCypress,
-    darkModeLogo: LogoCypressLight,
-    url: 'https://www.cypress.io/',
-  },
-  {
-    label: 'Storybook',
-    logo: LogoStorybook,
-    url: 'https://storybook.js.org/',
   },
   {
     label: 'Git',
