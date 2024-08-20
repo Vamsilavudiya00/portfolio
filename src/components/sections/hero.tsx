@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { MapPin } from 'lucide-react';
 
-import SagarHeadshot from '/public/images/sagar-headshot.jpg';
+import SagarHeadshot from '/public/images/vamsi.jpg';
 import SocialIcons from '@/components/data-display/social-icons';
 import Typography from '@/components/general/typography';
 import Container from '@/components/layout/container';
@@ -35,7 +35,7 @@ const HeroSection = () => {
               on creating (and occasionally designing) exceptional digital
               experiences that are fast, accessible, visually appealing, and
               responsive. Even though I have been creating web applications for
-              over 7 years, I still love it as if it was something new.
+              over 5 years, I still love it as if it was something new.
             </Typography>
           </div>
           <div className="flex flex-col gap-2">

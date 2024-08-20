@@ -27,7 +27,7 @@ import LogoDotnpixel from '/public/images/logos/logo-dotnpixel.svg';
 import LogoDotnpixelLight from '/public/images/logos/logo-dotnpixel-light.svg';
 
 import ProjectFiskil from '/public/images/project-fiskil.png';
-import ProjectWingie from '/public/images/project-wingie.png';
+import ProjectWingie from '/public/images/project-1.png';
 import ProjectPepehousing from '/public/images/project-pepehousing.png';
 
 import AvatarKrisztian from '/public/images/avatar-krisztian.png';
@@ -42,12 +42,12 @@ import {
 } from '@/lib/types';
 
 export const EXTERNAL_LINKS = {
-  GITHUB: 'https://github.com/shahsagarm',
+  GITHUB: 'https://github.com/Vamsilavudiya00',
   GITHUB_REPO: 'https://github.com/Vamsilavudiya00/portfolio',
-  TWITTER: 'https://twitter.com/shahsagarm',
-  FIGMA: 'https://www.figma.com/@shahsagarm',
+  TWITTER: 'https://x.com/vamsi_lavadiya',
+  FIGMA: 'https://www.figma.com/@vamsilavudiya',
   FIGMA_FILE:
-    'https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop',
+    'https://www.figma.com/@vamsilavudiya',
 };
 
 export const NAV_LINKS = [
@@ -178,60 +178,59 @@ export const EXPERIENCES: ExperienceDetails[] = [
 
 export const PROJECTS: ProjectDetails[] = [
   {
-    name: 'Wingie',
+    name: 'Save Data',
     description:
-      'A platform for comparing and finding affordable flights, as well as booking and purchasing tickets safely and easily in a few simple clicks.',
-    url: 'https://www.wingie.com',
+      'A platform for Save text heading with description and handle(Create, Read, Update, Delete) after Login.',
+    url: 'https://vamsi-todo-app.vercel.app',
     previewImage: ProjectWingie,
     technologies: [
       'React',
-      'Typescript',
+      'JavaScript',
       'React Bootstrap',
       'Firebase',
       'Express.js',
-      'PostgreSQL',
-      'Styled Components',
-      'Redux',
+      'Firestore',
+      'Tailwind CSS'
     ],
   },
-  {
-    name: 'Fiskil',
-    description:
-      'A platform for accessing real-time open banking and energy data to help you grow your business, backed with scalable back-end infrastructure.',
-    url: 'https://fiskil.com.au',
-    previewImage: ProjectFiskil,
-    technologies: [
-      'React',
-      'Next.js',
-      'Typescript',
-      'Tailwindcss',
-      'Material UI',
-      'Redux Toolkit',
-      'React Query',
-      'Express.js',
-      'PostgreSQL',
-      'Firebase',
-      'AWS Amplify',
-      'Cypress',
-      'Storybook',
-    ],
-  },
-  {
-    name: 'Pepehousing',
-    description:
-      'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
-    url: 'https://pepehousing.com',
-    previewImage: ProjectPepehousing,
-    technologies: [
-      'React',
-      'Next.js',
-      'Typescript',
-      'Tailwindcss',
-      'Redux Toolkit',
-      'React Query',
-      'Storybook',
-    ],
-  },
+  // {
+  //   name: 'Fiskil',
+  //   description:
+  //     'A platform for accessing real-time open banking and energy data to help you grow your business, backed with scalable back-end infrastructure.',
+  //   url: 'https://fiskil.com.au',
+  //   previewImage: ProjectFiskil,
+  //   technologies: [
+  //     'React',
+  //     'Next.js',
+  //     'Typescript',
+  //     'Tailwindcss',
+  //     'Material UI',
+  //     'Redux Toolkit',
+  //     'React Query',
+  //     'Express.js',
+  //     'PostgreSQL',
+  //     'Firebase',
+  //     'AWS Amplify',
+  //     'Cypress',
+  //     'Storybook',
+  //   ],
+  // },
+  // {
+  //   name: 'Pepehousing',
+  //   description:
+  //     'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
+  //   url: 'https://pepehousing.com',
+  //   previewImage: ProjectPepehousing,
+  //   technologies: [
+  //     'React',
+  //     'Next.js',
+  //     'Typescript',
+  //     'Tailwindcss',
+  //     'Redux Toolkit',
+  //     'React Query',
+  //     'Storybook',
+  //   ],
+  // },
 ];
 
 export const TESTIMONIALS: TestimonialDetails[] = [
